@@ -74,8 +74,6 @@
   align-items: center;
 }
 
-.failure-image-container {
-}
 
 .failure-text-container {
   padding-top: 125px;
@@ -150,3 +148,27 @@
 }
 
 /*   Small Banner start from here  */
+.small-banner-container {
+  max-width: 1200px;
+  height: 300px;
+  margin: auto 20% 130px 15%;
+
+  background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url('./images/watch.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.small-banner-text-container {
+  margin-left: 65px;
+  padding-top: 60px;
+}
+
+.small-banner-title {
+  color: var(--text-white);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
