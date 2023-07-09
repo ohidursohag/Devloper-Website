@@ -1,0 +1,152 @@
+:root {
+  --text-blue: #005fac;
+  --text-black: #151414;
+  --text-gray1: #444343;
+  --text-gray2: #737272;
+  --text-white: #ffffff;
+  --text-green:#16D887;
+  --font: "Work Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+/* **** Banner section start from here ****** */
+
+.banner-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/banner/banner3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 140px;
+}
+
+.banner-items {
+  margin: auto 230px auto auto;
+  padding-top: 220px;
+
+  color: var(--text-white);
+  text-align: right;
+}
+
+.banner-title {
+  width: 600px;
+  margin-left: auto;
+
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.banner-description {
+  width: 500px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: right;
+  margin: 0 0 35px auto;
+}
+
+.btn-primary {
+  width: 160px;
+  height: 65px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-blue);
+}
+
+/*  <!-- My failures start from here --> */
+
+.failure-container {
+  max-width: 1200px;
+  margin: auto 20% 130px 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.failure-image-container {
+}
+
+.failure-text-container {
+  padding-top: 125px;
+}
+.failure-title {
+  color: var(--text-black);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  margin-right: auto;
+}
+
+.failure-description, .failure-list-itam {
+  max-width: 420px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  line-height: 26px;
+  color: var(--text-gray1);
+  margin-right: auto;
+}
+
+.failure-list-itam {
+  margin-bottom: 8px;
+  list-style: none;
+
+}
+
+.failure-list-itam> i {
+  color: var(--text-green);
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+/*   My Plan start from here  */
+
+.myplan-container {
+  max-width: 1200px;
+  margin: auto 20% 130px 15%;
+  text-align: center;
+
+}
+
+.myplan-title{
+  color: var(--text-black);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.myplan-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myplan-item-icon{
+  margin-bottom: 25px;
+}
+
+.myplan-item-title {
+  color: var(--text-black);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.myplan-item-info {
+  color: var(--text-gray2);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*   Small Banner start from here  */
