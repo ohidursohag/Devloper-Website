@@ -28,7 +28,7 @@
 }
 
 .banner-items {
-  margin: auto 230px auto auto;
+  margin-right: 230px;
   padding-top: 220px;
 
   color: var(--text-white);
@@ -66,9 +66,13 @@
 
 /*  <!-- My failures start from here --> */
 
-.failure-container {
+.body-content {
   max-width: 1200px;
-  margin: auto 20% 130px 15%;
+  margin: auto;
+}
+
+.failure-container {
+  padding-bottom: 130px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -111,8 +115,7 @@
 /*   My Plan start from here  */
 
 .myplan-container {
-  max-width: 1200px;
-  margin: auto 20% 130px 15%;
+  padding-bottom: 130px;
   text-align: center;
 
 }
@@ -149,9 +152,8 @@
 
 /*   Small Banner start from here  */
 .small-banner-container {
-  max-width: 1200px;
   height: 300px;
-  margin: auto 20% 130px 15%;
+  margin-bottom: 130px;
 
   background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url('./images/watch.png');
   background-repeat: no-repeat;
@@ -171,4 +173,110 @@
   font-weight: 700;
   margin-bottom: 25px;
 }
+
+/*   Footer section start from here  */
+.footer-container {
+  background-color: var(--text-black);
+  color: var(--text-white);
+}
+
+/* Footer Left Section */
+
+.footer-items-container {
+  max-width: 1200px;
+  margin: auto ;
+  padding: 200px 0 130px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left-column-title {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.footer-left-column-description {
+  max-width: 500px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  line-height: 26px;
+  margin-right: auto;
+}
+.footer-left-column-emil, .footer-left-column-phone {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  line-height: 26px;
+  margin-right: auto;
+}
+/* Social midea icons */
+
+
+.footer-left-column-social-media-icons {
+  margin-top: 32px;
+  height: 60px;
+
+}
+
+.icon-container {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+
+.icon-container a {
+  /* display: block; */
+}
+
+
+.social-madia-icon {
+  /* border-radius: 50%; */
+
+
+}
+
+.social-madia-icon:hover {
+  border: 2px solid var(--text-green);
+  border-radius: 50%;
+
+}
+
+/* Footer Right section */
+
+.footer-right-column-title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+#email {
+  width: 330px;
+  height: 64px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  padding-left: 22px;
+  color: var(--text-gray1);
+  margin-bottom: 20px;
+  font-weight: 500;
+  outline: none;
+
+}
+
+.btn-subscribe {
+  width: 170px; 
+  background-color: var(--text-blue);
+  color: var(--text-white);
+}
+
+/* Button Hover */
+.btn-primary:hover {
+  background-color: var(--text-gray2);
+  color: var(--text-white);
+}
+
+
+
 
