@@ -62,6 +62,8 @@
   font-size: 20px;
   font-weight: 600;
   color: var(--text-blue);
+  transition: .3s;
+
 }
 
 /*  <!-- My failures start from here --> */
@@ -216,24 +218,31 @@
 
 .footer-left-column-social-media-icons {
   margin-top: 32px;
-  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
 
 }
 
 .icon-container {
+  width: 60PX;
+  height: 60PX;`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: content-box;
+}
+
+
+/* .icon-container a {
   display: inline-block;
-  margin-right: 20px;
-}
-
-
-.icon-container a {
-  /* display: block; */
-}
+  
+} */
 
 
 .social-madia-icon {
-  /* border-radius: 50%; */
-
+  transition: 0.3s;
 
 }
 
@@ -269,12 +278,14 @@
   width: 170px; 
   background-color: var(--text-blue);
   color: var(--text-white);
+
 }
 
 /* Button Hover */
 .btn-primary:hover {
   background-color: var(--text-gray2);
-  color: var(--text-white);
+  color: var(--text-green);
+  border: 1px solid var(--text-green);
 }
 
 
